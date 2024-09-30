@@ -8,12 +8,11 @@
 <body>
     <label>Enter a Task:</label>
     <input id="inputValue" type="text" placeholder="Enter here">
-    <button id="btn" ondblclick="displayValue()">Add</button>
-    <div>
-        <div id="displayTask">
-             
-        </div>
-    </div>
+    <button id="btn" onclick=displayValue()>Add</button>
+    <button onclick=deleteValue() id="btndelete">Delete</button>
+    <ul id="taskList">
+
+    </ul>
     <script src="./assets/script.js"></script>
 </body>
 </html>
